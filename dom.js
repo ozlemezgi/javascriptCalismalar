@@ -16,3 +16,12 @@ for (i = 0; i < allElements.length; i++) {
 var classElements = document.getElementsByClassName("intro1");
 
 alert(classElements[1].innerHTML);  //içeriye 0 yada 1  dememizin sebebi intro1 classını kullanan ilk tage ulaşmak istememizden dolayı
+alert(classElements.length); 
+
+
+//querySelectorAll ; Ayni classı kullanan bir kaç farklı p,h,intro vs tipin arasında seçim yapmamızı gerektiren durumlarda kullanılır. 
+var queryElements = document.querySelectorAll("p.intro1"); 
+alert(queryElements.length);
+
+var nameElements =document.getElementsByName("Name");
+alert(nameElements[0].value);
