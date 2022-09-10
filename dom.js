@@ -13,3 +13,6 @@ for (i = 0; i < allElements.length; i++) {
     alert(allElements[i].innerHTML);    //innerHTML li nin içini okumamızı sağlar.
 }
 
+var classElements = document.getElementsByClassName("intro1");
+
+alert(classElements[1].innerHTML);  //içeriye 0 yada 1  dememizin sebebi intro1 classını kullanan ilk tage ulaşmak istememizden dolayı
