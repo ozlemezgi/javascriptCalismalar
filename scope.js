@@ -37,5 +37,6 @@ console.log(surname)
 const sehirler = ["Ankara","İstanbul"]
 sehirler.push("İzmir"); //burda hata vermez ve array'e izmiri ekler. 
 //diziler ve nesneler referans tiptir..
-sehirler =["Bursa","Magusa"]//ERROR verir.
+//Yukarıda dizinin bellekteki yerini değiştirmiyoruz aşağıda bellekteki yeri değiştirdiğimiz için hata veriyor.
+//sehirler =["Bursa","Magusa"]//ERROR verir.
 console.log(sehirler)
